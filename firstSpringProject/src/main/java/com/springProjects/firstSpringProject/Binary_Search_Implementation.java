@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Binary_Search_Implementation {
     //creating an instance of interface as a field
-    private final SortAlgorithm sortAlgorithm;
     @Autowired
+    private final SortAlgorithm sortAlgorithm;
     // creating constructor to set field
     public Binary_Search_Implementation(SortAlgorithm sortAlgorithm){
         super();
